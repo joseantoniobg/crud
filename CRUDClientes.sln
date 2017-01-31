@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D7803F04-EB44-40CC-8F43-BD5C1F483DFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53E8E65E-0D70-48B3-886B-07EE1FE95D41}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CRUDClientes", "src\CRUDClientes\CRUDClientes.xproj", "{48A411BA-00F8-40BB-9AC7-68BE0EDD1720}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48A411BA-00F8-40BB-9AC7-68BE0EDD1720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A411BA-00F8-40BB-9AC7-68BE0EDD1720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A411BA-00F8-40BB-9AC7-68BE0EDD1720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A411BA-00F8-40BB-9AC7-68BE0EDD1720}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48A411BA-00F8-40BB-9AC7-68BE0EDD1720} = {D7803F04-EB44-40CC-8F43-BD5C1F483DFA}
+	EndGlobalSection
+EndGlobal
